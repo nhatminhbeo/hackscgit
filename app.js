@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 /* Mongo Code. */
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/hackappdb');
+var db = monk('mongodb://hackscgitadm:Minh4397@ds042128.mongolab.com:42128/hackscgit');
 
 
 var routes = require('./routes/index');
